@@ -1,6 +1,7 @@
 <script>
   import logo from "$lib/assets/canada-logo.svg";
   import smallLogo from "$lib/assets/small-logo.svg";
+  import { base } from "$app/paths";
 </script>
 
 <div class="background">
@@ -10,8 +11,8 @@
         <img src={logo} alt="government of canada" />
       </div>
       <div class="links">
-        <a class="lang-link" href="/en/home">English</a>
-        <a class="lang-link" href="/fr/home">French</a>
+        <a class="lang-link" href="{base}/en/home">English</a>
+        <a class="lang-link" href="{base}/en/home">French</a>
       </div>
     </div>
     <div class="toc">

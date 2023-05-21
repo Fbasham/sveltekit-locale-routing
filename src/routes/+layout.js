@@ -4,8 +4,9 @@ import { loadTranslations } from "$lib/translations";
 
 export const load = async ({ url }) => {
   let { pathname } = url;
-  let locale = pathname.split`/`[1];
-  let path = "/" + pathname.split`/`.slice(2).join`/`;
+  console.log(pathname);
+  let locale = pathname.split`/`[2];
+  let path = "/" + pathname.split`/`.slice(3).join`/`;
 
   await loadTranslations(locale, path);
 
