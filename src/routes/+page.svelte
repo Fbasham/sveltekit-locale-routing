@@ -12,7 +12,7 @@
       </div>
       <div class="links">
         <a class="lang-link" href="{base}/en/home">English</a>
-        <a class="lang-link" href="{base}/en/home">French</a>
+        <a class="lang-link" href="{base}/fr/home">French</a>
       </div>
     </div>
     <div class="toc">
