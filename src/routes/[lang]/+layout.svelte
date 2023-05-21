@@ -16,14 +16,22 @@
   </div>
 </header>
 
-<slot />
+<div class="content">
+  <slot />
+</div>
 
 <style>
   header {
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid lightgray;
   }
   .img-container {
-    width: 25%;
+    width: 30%;
+  }
+  .content {
+    margin: 3rem;
   }
 </style>

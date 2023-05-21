@@ -5,7 +5,7 @@ export const load = async ({ url }) => {
   let locale = pathname.split`/`[1];
   let path = "/" + pathname.split`/`.slice(2).join`/`;
 
-  await loadTranslations(locale, path);
+  await loadTranslations(locale, "common");
 
   return { locale, path };
 };
