@@ -1,5 +1,6 @@
 <script>
   import logo from "$lib/assets/canada-logo.svg";
+  import { base } from "$app/paths";
   export let data;
 </script>
 
@@ -9,9 +10,9 @@
   </div>
   <div>
     {#if data.locale === "en"}
-      <a data-sveltekit-reload href={`/fr${data.path}`}>French</a>
+      <a data-sveltekit-reload href="{base}/fr{data.path}">French</a>
     {:else}
-      <a data-sveltekit-reload href={`/en${data.path}`}>English</a>
+      <a data-sveltekit-reload href="{base}/en{data.path}">English</a>
     {/if}
   </div>
 </header>
