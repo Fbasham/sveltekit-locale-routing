@@ -30,9 +30,14 @@
     border-bottom: 1px solid lightgray;
   }
   .img-container {
-    width: 30%;
+    min-width: 30%;
   }
   .content {
     margin: 3rem;
+  }
+  @media (max-width: 500px) {
+    .img-container {
+      width: 60%;
+    }
   }
 </style>
