@@ -1,16 +1,13 @@
 <script>
   import logo from "$lib/assets/canada-logo.svg";
-  import { page } from "$app/stores";
   import { base } from "$app/paths";
 </script>
 
 <div>
   <img src={logo} alt="" />
   <h1>Something went wrong</h1>
-  <p>Error: {$page.status}</p>
   <p>Return to the <a href="{base}/en/home">home</a> page</p>
   <h1>Quelque chose s'est mal passé</h1>
-  <p>Erreur: {$page.status}</p>
   <p>Retournez à la page <a href="{base}/fr/home">d'accueil</a></p>
 </div>
 
