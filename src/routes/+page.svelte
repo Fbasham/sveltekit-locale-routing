@@ -1,7 +1,6 @@
 <script>
   import logo from "$lib/assets/canada-logo.svg";
   import smallLogo from "$lib/assets/small-logo.svg";
-  import { base } from "$app/paths";
 </script>
 
 <div class="background">
@@ -11,8 +10,8 @@
         <img src={logo} alt="government of canada" />
       </div>
       <div class="links">
-        <a class="lang-link" href="{base}/en/home">English</a>
-        <a class="lang-link" href="{base}/fr/home">French</a>
+        <a class="lang-link" href="/en/home">English</a>
+        <a class="lang-link" href="/fr/home">French</a>
       </div>
     </div>
     <div class="toc">
@@ -36,7 +35,7 @@
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-image: url("$lib/assets/pexels-rachel-2186964.jpg");
+    background-image: url("$lib/assets/yukon.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
